@@ -10,7 +10,23 @@ Sitio web de **Bit&Fix**, mi emprendimiento de reparación de PC y desarrollo de
 
 Muchos negocios chicos y personas que necesitan arreglar su computadora no tienen dónde ver qué servicios ofrezco, cuánto cuestan o trabajos anteriores. El sitio reúne todo en un solo lugar y lleva cada consulta a WhatsApp con un mensaje ya escrito, para que contactarme sea un solo toque.
 
-Además, funciona como catálogo de páginas web: tiene 12 sitios de ejemplo, uno por rubro, para que cada cliente vea cómo podría quedar el suyo antes de encargarlo.
+Además, funciona como catálogo de páginas web: tiene 11 sitios de ejemplo, uno por rubro, para que cada cliente vea cómo podría quedar el suyo antes de encargarlo, y muestra el primer proyecto para un cliente real.
+
+## Proyecto para cliente: ROXMAR (en desarrollo)
+
+**[Ver la página](https://bit-fix.pages.dev/demos/roxmar/)**
+
+![Página de ROXMAR](docs/roxmar.png)
+
+ROXMAR es un polirubro de ropa, zapatillas y accesorios de San José de la Dormida (Córdoba). El local vendía solo de forma presencial y por mensajes sueltos, sin un lugar donde mostrar todo lo que tiene. Estoy desarrollando su página para que cualquier persona, también de otras localidades, pueda ver el catálogo y hacer su pedido.
+
+- **Catálogo por categorías** con filtros, fotos y precios.
+- **Elección de talle** antes de sumar al pedido.
+- **Carrito** que se guarda en el navegador aunque se cierre la página.
+- **Pedido por WhatsApp:** arma automáticamente el mensaje con cada producto, talle, cantidad y total.
+- **Fotos reales del local** y sección para conocer el negocio.
+
+Hecho con HTML, CSS y JavaScript, sin frameworks. Pendiente para la entrega: cargar el número de WhatsApp del local y completar el catálogo.
 
 ## Qué incluye
 
@@ -38,7 +54,6 @@ Además, funciona como catálogo de páginas web: tiene 12 sitios de ejemplo, un
 | [Reparación de celulares](https://bit-fix.pages.dev/demos/celulares/) | Cotizador online y garantía |
 | [Estudio jurídico](https://bit-fix.pages.dev/demos/estudio-juridico/) | Áreas de práctica, equipo y consultas |
 | [Vendedor de autos](https://bit-fix.pages.dev/demos/vendedor-autos/) | Unidades, simulador de cuotas y toma de usados |
-| [ROXMAR · Tienda de ropa](https://bit-fix.pages.dev/demos/roxmar/) | Catálogo con talles y pedido por WhatsApp |
 
 Las demos comparten un kit propio en JavaScript (`demos/kit.js`) con catálogo filtrable, carrito, formularios y cotizador. Cada página solo define sus productos y textos, y el kit arma el resto. En las demos, los pedidos y turnos no se envían a ningún negocio: muestran cómo le llegaría el mensaje y ofrecen pedir una web así.
 
@@ -55,13 +70,13 @@ Las demos comparten un kit propio en JavaScript (`demos/kit.js`) con catálogo f
 ├── index.html        # Página principal
 ├── css/main.css      # Estilos del sitio
 ├── js/main.js        # WhatsApp, PCs a la venta y menú
-├── demos/            # 12 páginas de ejemplo y su kit compartido
+├── demos/            # 11 páginas de ejemplo, su kit compartido y ROXMAR
 ├── img/              # Logo, ilustraciones, capturas y fotos de trabajos
 ├── videos/           # Videos de antes y después
 └── docs/             # Capturas para este README
 ```
 
-## Cómo verlo en tu computadora
+## Cómo verlo en tu celular
 
 No necesita instalar nada: descargá el repositorio (**Code → Download ZIP**), descomprimilo y abrí `index.html` con el navegador.
 
